@@ -26,7 +26,7 @@ import org.atmosphere.config.service.ManagedService;
 import org.atmosphere.config.service.Ready;
 import org.atmosphere.cpr.AtmosphereResource;
 import org.atmosphere.cpr.AtmosphereResourceEvent;
-import org.slf4j.Logger;
+impot org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 @ManagedService(path = "/chat")
