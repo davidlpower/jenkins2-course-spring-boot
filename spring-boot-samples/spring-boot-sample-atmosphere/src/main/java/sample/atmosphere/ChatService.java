@@ -69,6 +69,7 @@ public class ChatService {
 
 		@Override
 		public Message decode(String s) {
+			//test comment here...
 			try {
 				return this.mapper.readValue(s, Message.class);
 			}
